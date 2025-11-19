@@ -1,4 +1,5 @@
-select * from MasterTenders_10_1
+--19.11.2025
+select * from MasterTenders_10_1 
 SELECT * FROM public.rawdata_2025_10_1;
 CREATE TABLE public.RawData_2025_10_1 (
     TenderSubject TEXT,                 -- Предмет тендера
