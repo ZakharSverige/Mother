@@ -188,7 +188,7 @@ CREATE TABLE MasterTenders_10_4 (
 ## 🛠️ Методология: SQL Очистка и Первичное Моделирование (MVP)
 
 ### 1. Создание Таблиц и Очистка Данных (Data Wrangling)
-
+```
 CREATE TABLE MasterTenders_10_4 (
 TenderID TEXT PRIMARY KEY,
 NMCK_X1 NUMERIC,
@@ -200,10 +200,10 @@ TenderSubject_X6 TEXT,
 ContractDate_X8 DATE
 );
 
-text
+```
 
 ### Скрипт Очистки, Трансформации и Вставки (SQL)
-
+```
 INSERT INTO MasterTenders_10_4 (
 TenderID, NMCK_X1, FinalPrice_Y, CustomerINN_X3, WinnerINN_X4, Participants_X2, TenderSubject_X6, ContractDate_X8
 )
@@ -226,7 +226,7 @@ AND T.InitialPriceRub IS NOT NULL
 AND T.WinnerINN IS NOT NULL AND TRIM(T.WinnerINN) != ''
 AND TRIM(T.TenderNumber) NOT IN (SELECT TenderID FROM MasterTenders_10_4);
 
-text
+```
 
 ---
 
@@ -241,7 +241,7 @@ text
 
 ## ⏭️ Будущие Улучшения и Feature Engineering
 
-Полученный результат ($R^2=0.31$) подтверждает необходимость перехода ко второму, более сложному этапу — Feature Engineering, для достижения целевой точности ($R^2 > 0.70$).
+Полученный результат (R^2=0.3) подтверждает необходимость перехода ко второму, более сложному этапу — Feature Engineering, для достижения целевой точности ($R^2 > 0.70$).
 
 ### Планируемые Признаки для Следующей Итерации (SQL Агрегация)
 
