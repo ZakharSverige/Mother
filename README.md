@@ -105,6 +105,11 @@ CREATE TABLE MasterTenders_10_4 (
     Participants_X2 INTEGER,  -- Количество заявок
     ContractDate_X8 DATE      -- Дата подведения итогов
 );
+```
+
+
+
+
 
 
 
