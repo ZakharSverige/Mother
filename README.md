@@ -188,7 +188,7 @@ CREATE TABLE MasterTenders_10_4 (
 ## 🛠️ Методология: SQL Очистка и Первичное Моделирование (MVP)
 
 ### 1. Создание Таблиц и Очистка Данных (Data Wrangling)
-```
+``` sql
 CREATE TABLE MasterTenders_10_4 (
 TenderID TEXT PRIMARY KEY,
 NMCK_X1 NUMERIC,
@@ -203,7 +203,7 @@ ContractDate_X8 DATE
 ```
 
 ### Скрипт Очистки, Трансформации и Вставки (SQL)
-```
+``` sql
 INSERT INTO MasterTenders_10_4 (
 TenderID, NMCK_X1, FinalPrice_Y, CustomerINN_X3, WinnerINN_X4, Participants_X2, TenderSubject_X6, ContractDate_X8
 )
