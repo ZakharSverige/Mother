@@ -200,15 +200,15 @@ TenderSubject_X6 TEXT,
 ContractDate_X8 DATE
 );
 ```
-![Сырой формат даты 1](.vscode/sql_table_creation_and_cleanesing/Снимок экрана (632).png)
+![Сырой формат даты 1](.vscode/sql_table_creation_and_cleanesing/AASD.png)
 
-![Сырой формат даты 2](.vscode/sql_table_creation_and_cleanesing/Снимок экрана (633).png)
+![Сырой формат даты 2](.vscode/sql_table_creation_and_cleanesing/ASDD.png)
 
-![Сырой формат даты 3](.vscode/sql_table_creation_and_cleanesing/Снимок экрана (634).png)
+![Сырой формат даты 3](.vscode/sql_table_creation_and_cleanesing/ASDF.png)
 
-![Сырой формат даты 4](.vscode/sql_table_creation_and_cleanesing/Снимок экрана (635).png)
+![Сырой формат даты 4](.vscode/sql_table_creation_and_cleanesing/ASDFG.png)
 
-![Сырой формат даты 5](.vscode/sql_table_creation_and_cleanesing/Снимок экрана (636).png)
+![Сырой формат даты 5](.vscode/sql_table_creation_and_cleanesing/ASDFGH.png)
 
 
 ### Скрипт Очистки, Трансформации и Вставки (SQL)
